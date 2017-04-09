@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Data: Big and Small</title>
+
+    <meta name="description" content="Networks">
+		<meta name="author" content="Ed Summers">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+    <style>
+      .reveal img.no-border {
+        border: none;
+        box-shadow: none;
+      }
+
+			a {
+				color: black;
+			}
+
+			a:visited {
+				color: black;
+			}
+
+    </style>
+	</head>
+
+	<body>
+
+    <div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+
+        <section>
+          <h2>net / works</h2>
+          <h3>an introduction to graphs</h3>
+          <br>
+          Critical Topics in Digital Studies<br>
+          Spring 2017
+          <br>
+          <br>
+          <br>
+          <a href="http://umd-mith.github.io/networks">http://umd-mith.github.io/networks</a>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section>
+        <a href="https://en.wikipedia.org/wiki/Leonhard_Euler"><img style="width: 51%;" src="img/euler.jpg"></a>
+          <aside class="notes">
+          This is Leonard Euler. Euler is considered one of the preeminent 
+          mathematicians of the 18th century, and one of the greatest 
+          mathematicians to have ever lived. At least that's what Wikipedia 
+          says. His collected works fill 80 volumes, and is remembered today 
+          for his introduction of much of modern mathematical notation 
+          and terminology, among other things. He had 13 children, of which 
+          only 5 survived childhood. He went blind in his 60s but his output 
+          continued at the rate of one paper a week in 1775.
+          </aside>
+        </section>
+
+        <section>
+        <img src="img/konigsberg.jpg">
+        <aside class="notes">
+        The city of Königsberg in Prussia (now Kaliningrad, Russia) was set on both sides of the Pregel River, and included two large islands which were connected to each other and the mainland by seven bridges. The problem was to devise a walk through the city that would cross each bridge once and only once, with the provisos that: the islands could only be reached by the bridges and every bridge once accessed must be crossed to its other end
+        </aside>
+        </section>
+
+        <section>
+        <img style="width: 70%;" src="img/konigsberg-illustration.png">
+        <aside class="notes">
+        First, Euler pointed out that the choice of route inside each land mass is irrelevant. The only important feature of a route is the sequence of bridges crossed. This allowed him to reformulate the problem in abstract terms (laying the foundations of graph theory), eliminating all features except the list of land masses and the bridges connecting them.
+        </aside>
+        </section>
+
+        <section>
+        <img style="width: 50%;" src="img/konigsberg-graph.png">
+        <aside class="notes">
+        In modern terms, one replaces each land mass with an abstract "vertex" or node, and each bridge with an abstract connection, an "edge", which only serves to record which pair of vertices (land masses) is connected by that bridge. The resulting mathematical structure is called a graph.
+
+        Euler shows that the possibility of a walk through a graph, traversing each edge exactly once, depends on the degrees of the nodes. The degree of a node is the number of edges touching it. Euler's argument shows that a necessary condition for the walk of the desired form is that the graph be connected and have exactly zero or two nodes of odd degree. 
+        </aside>
+        </section>
+
+        <section>
+        <img style="width: 45%;" src="img/konigsberg-illustration.png">
+        <img style="width: 42%;" src="img/konigsberg-graph.png">
+        </section>
+
+        <section>
+          <h2>undirected graph</h2>
+          <img class="no-border" src="img/graph.png">
+        </section>
+
+        <section>
+          <h2>directed graph</h2>
+          <img class="no-border" src="img/graph-directed.png">
+        </section>
+
+        <section>
+          <h2>degree</h2>
+          <img class="no-border" src="img/graph-degree.png">
+        </section>
+
+        <section>
+          <h2>indegree</h2>
+          <img class="no-border" src="img/graph-directed-indegree.png">
+        </section>
+
+        <section>
+          <h2>outdegree</h2>
+          <img class="no-border" src="img/graph-directed-outdegree.png">
+        </section>
+
+        <section>
+          <h2>edge weight</h2>
+          <img class="no-border" src="img/graph-edge-weight.png">
+        </section>
+
+        <section>
+        <a href="img/hamlet.png"><img style="width: 70%" src="img/hamlet.png"></a><br>
+        <a href="https://litlab.stanford.edu/LiteraryLabPamphlet2.pdf">Network Theory and Plot Analysis</a><br>
+        <a href="https://en.wikipedia.org/wiki/Franco_Moretti">Franco Moretti</a>
+        </section>
+
+        <section data-background-image="img/humanist.png">
+        <a style="color: white;" href="http://humanist.dclure.org/">Humanist Discussion Group</a><br>
+        <a style="color: white;" href="https://twitter.com/clured">David McClure</a>
+        </section>
+
+        <section data-background-image="img/cablegate.png">
+          <a href="http://edsu.github.io/cablegate-social-graph/" style="color: black; font-weight: bold;">Wikileaks Cablegate Social Graph</a>
+        </section>
+
+        <section>
+        <a href="img/dh.png"><img style="width: 60%;" src="img/dh.png"></a><br>
+        <a href="http://www.martingrandjean.ch/digital-humanities-on-twitter/">Digital Humanities on Twitter, a small world?</a><br><a href="https://twitter.com/grandjeanmartin">Martin Grandjean</a>
+        </section>
+
+        <section>
+					 <iframe src="https://player.vimeo.com/video/109505574?color=afbc21" width="800" height="481" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</section>
+
+        <section>
+        <a href="http://www.amazon.com/Mark-Lombardi-Networks-Judith-Richards/dp/0916365670"><img width="400" src="img/lombardi.jpg"></a><br>
+        <a href="http://www.amazon.com/Mark-Lombardi-Networks-Judith-Richards/dp/0916365670">Global Networks</a><br> 
+        <a href="https://en.wikipedia.org/wiki/Mark_Lombardi">Mark Lombardi</a><br>
+        </section>
+
+				<section>
+				<a href="img/laughs.jpg"><img style="float: left;" width="450" src="img/laughs.jpg"></a>
+				<br>
+				<br>
+				<br>
+				<a href="http://www.dear-data.com/">Dear Data</a>
+				<br>
+				<br>
+				<br>
+				<a href="https://twitter.com/giorgialupi">Giorgia Lupi</a>
+				<br>
+				and
+				<br>
+				<a href="https://twitter.com/stefpos">Stefanie Posavec</a>
+				</section>
+
+        <section>
+        <h1>Paper Graphs</h1>
+        </section>
+
+        <section>
+        <a href="https://www.flickr.com/photos/inkdroid/22510518477/"><img width="800" src="img/visconti.jpg"></a>
+        </section>
+
+        <section>
+          <h2>Image Credits</h2>
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Leonhard_Euler#/media/File:Leonhard_Euler_2.jpg">Leonhard Euler</a> by Jakob Emanuel Handmann</li>
+          </ul>
+        </section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: 'fade',
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</body>
+</html>
