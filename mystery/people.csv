@@ -1,45 +1,45 @@
-Ed Summers,Jeffrey Moro,1
-Ed Summers,SOS,1
-Ed Summers,Matt Kirschenbaum,3
-Ed Summers,Garth,1
-Ed Summers,Victoria,2
-Ed Summers,Gareth Williams,1
-Ed Summers,Kim,2
-Ed Summers,Hazim,2
-Ed Summers,Georgia,1
-Ed Summers,Nora,1
-Ed Summers,Allison,1
-Matt Kirschenbaum,Garth,2
-Matt Kirschenbaum,Victoria,4
-Matt Kirschenbaum,Gareth Williams,4
-Matt Kirschenbaum,Kim,1
-Matt Kirschenbaum,Allison,2
-Matt Kirschenbaum,Nancy,3
-Matt Kirschenbaum,Jasmine Smith,1
-Matt Kirschenbaum,Georgia,1
-Matt Kirschenbaum,Jess,2
-Matt Kirschenbaum,Nora,1
-Jeffrey Moro,SOS,1
-Jeffrey Moro,Brooke ,1
-Jeffrey Moro,Georgia,1
-Jeffrey Moro,Jess,1
-Jeffrey Moro,Brittni Ballard,2
-Jeffrey Moro,Garth,1
-Jeffrey Moro,Guy Fieri,2
-Jeffrey Moro,Jasmine Smith,1
-Jeffrey Moro,LTD,1
-Jeffrey Moro,Nora,1
-Nancy,Gareth Williams,3
-Nancy,Jasmine Smith,2
+Ed,Jeffrey,1
+Ed,SOS,1
+Ed,Matt,3
+Ed,Garth,1
+Ed,Victoria,2
+Ed,Gareth,1
+Ed,Kim,2
+Ed,Hazim,2
+Ed,Georgia,1
+Ed,Nora,1
+Ed,Allison,1
+Matt,Garth,2
+Matt,Victoria,4
+Matt,Gareth,4
+Matt,Kim,1
+Matt,Allison,2
+Matt,Nancy,3
+Matt,Jasmine,1
+Matt,Georgia,1
+Matt,Jess,2
+Matt,Nora,1
+Jeffrey,SOS,1
+Jeffrey,Brooke ,1
+Jeffrey,Georgia,1
+Jeffrey,Jess,1
+Jeffrey,Brittni,2
+Jeffrey,Garth,1
+Jeffrey,Guy,2
+Jeffrey,Jasmine,1
+Jeffrey,LTD,1
+Jeffrey,Nora,1
+Nancy,Gareth,3
+Nancy,Jasmine,2
 Nancy,Georgia,2
 Nancy,Jess,2
 Nancy,Victoria,2
 Nancy,Garth,2
 Nancy,Nora,1
 Nancy,Allison,1
-Nancy,Brittni Ballard,2
+Nancy,Brittni,2
 Nancy,Kim,2
-Nancy,Guy Fieri,1
+Nancy,Guy,1
 Nancy,LTD,2
 Nancy,SOS,2
 Nancy,Hazim,1
@@ -49,71 +49,71 @@ Georgia,Nora,2
 Georgia,Jess,2
 Georgia,Victoria,1
 Georgia,Garth,2
-Georgia,Gareth Williams,1
-Georgia,Brittni Ballard,2
-Georgia,Guy Fieri,2
-Georgia,Jasmine Smith,1
+Georgia,Gareth,1
+Georgia,Brittni,2
+Georgia,Guy,2
+Georgia,Jasmine,1
 Georgia,Kim,1
 Georgia,LTD,1
 Georgia,SOS,2
 Jess,Victoria,3
 Jess,Garth,3
-Jess,Gareth Williams,3
+Jess,Gareth,3
 Jess,Nora,2
 Jess,Allison,2
-Jess,Brittni Ballard,2
-Jess,Guy Fieri,1
+Jess,Brittni,2
+Jess,Guy,1
 Jess,Brooke ,1
 Jess,Kim,1
-Brittni Ballard,Garth,3
-Brittni Ballard,Guy Fieri,4
-Brittni Ballard,Jasmine Smith,2
-Brittni Ballard,LTD,3
-Brittni Ballard,Kim,3
-Brittni Ballard,SOS,1
-Brittni Ballard,Brooke ,2
-Brittni Ballard,Allison,1
+Brittni,Garth,3
+Brittni,Guy,4
+Brittni,Jasmine,2
+Brittni,LTD,3
+Brittni,Kim,3
+Brittni,SOS,1
+Brittni,Brooke ,2
+Brittni,Allison,1
 Brooke ,Garth,3
 Brooke ,Kim,3
 Brooke ,LTD,2
 Brooke ,Allison,1
-Brooke ,Jasmine Smith,1
-Victoria,Gareth Williams,4
+Brooke ,Jasmine,1
+Victoria,Gareth,4
 Victoria,Kim,1
 Victoria,Allison,2
 Victoria,Garth,1
 Victoria,Nora,3
-Victoria,Guy Fieri,1
+Victoria,Guy,1
 Victoria,Hazim,1
 Victoria,LTD,1
-Garth,Gareth Williams,1
+Garth,Gareth,1
 Garth,Nora,1
-Garth,Guy Fieri,1
+Garth,Guy,1
 Garth,Kim,3
 Garth,LTD,1
 Garth,Allison,1
-Garth,Jasmine Smith,1
-Gareth Williams,Kim,1
-Gareth Williams,Jasmine Smith,2
-Gareth Williams,Nora,2
-Gareth Williams,Allison,1
-Gareth Williams,Guy Fieri,1
-Gareth Williams,Hazim,1
-Jasmine Smith,Guy Fieri,3
-Jasmine Smith,LTD,2
-Jasmine Smith,Kim,2
-Jasmine Smith,SOS,1
-Jasmine Smith,Hazim,1
-Jasmine Smith,Nora,1
+Garth,Jasmine,1
+Gareth,Kim,1
+Gareth,Jasmine,2
+Gareth,Nora,2
+Gareth,Allison,1
+Gareth,Guy,1
+Gareth,Hazim,1
+Jasmine,Guy,3
+Jasmine,LTD,2
+Jasmine,Kim,2
+Jasmine,SOS,1
+Jasmine,Hazim,1
+Jasmine,Nora,1
 Kim,Hazim,1
-Kim,Guy Fieri,1
+Kim,Guy,1
 Kim,LTD,2
 Kim,SOS,1
 Kim,Allison,1
-Guy Fieri,LTD,3
-Guy Fieri,SOS,1
-Guy Fieri,Hazim,2
-Guy Fieri,Nora,1
+Guy,LTD,3
+Guy,SOS,1
+Guy,Hazim,2
+Guy,Nora,1
 Hazim,Nora,2
 Hazim,SOS,1
 Hazim,LTD,1
